@@ -6,7 +6,11 @@ const App = () => {
     return (
         <View style={styles.container}>
             <Text style={styles.text}>
-                {name == '태현' ? `내 이름은 ${name} 입니다` : `이름이 없습니다`}
+                {(() => {
+                    if (name == "태현") return "태현입니다"
+                    else if (name == "서경") return "서경입니다"
+                    else return "이름이 없습니다"
+                })()}
             </Text>
         </View>
     )
