@@ -1,15 +1,9 @@
-import { View, Text } from "react-native";
+import App from "./scr/App";
 
-export default function App() {
+function Route_App() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Universal React with Expo</Text>
-    </View>
-  );
+    <App />
+  )
 }
+
+export default Route_App;
