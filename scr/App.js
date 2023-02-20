@@ -5,7 +5,7 @@ const App = () => {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>
-                안녕
+                gdgdgdgdgd
             </Text>
         </View>
     )
