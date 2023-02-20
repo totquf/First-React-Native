@@ -2,6 +2,7 @@ import React from "react";
 import { Text, View, StyleSheet } from 'react-native';
 
 const App = () => {
+    //dfdfdf
     let name = '태현'
     return (
         <View style={styles.container}>
