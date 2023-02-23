@@ -1,14 +1,14 @@
 import React from "react";
-import { View, StyleSheet } from 'react-native';
-import EventButton from "./scr/EventButton";
-import EventInput from "./scr/EventInput";
+import { SafeAreaView, StyleSheet } from 'react-native';
+import { Header, Contents, Footer } from "./scr/component/Layout";
 
 const App = () => {
     return (
-        <View style={styles.container}>
-            <EventButton />
-            <EventInput />
-        </View>
+        <SafeAreaView style={styles.container}>
+            <Header/>
+            <Contents/>
+            <Footer/>
+        </SafeAreaView>
     )
 }
 
