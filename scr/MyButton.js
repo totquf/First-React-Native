@@ -8,7 +8,7 @@ const MyButton = ({title, onPress, children}) => {
         //onPress속성을 사용가능한 컴포넌트
         <TouchableOpacity
             style={styles.button}
-            onPress={() => onPress}> 
+            onPress={onPress}> 
             <Text style={styles.button_text}> 
                 {children || title}
             </Text>

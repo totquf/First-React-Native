@@ -6,7 +6,7 @@ const onPress = () => {
     return alert("버튼이 클릭되었습니다")
 }
 
-const App = () => {
+const Button = () => {
     return (
         <View style={styles.container}>
             <Text style={styles.text}>커스텀 버튼 컴포넌트</Text>
@@ -33,4 +33,4 @@ const styles = StyleSheet.create({
     },
 })
 
-export default App;
+export default Button;
